@@ -7,25 +7,12 @@ The goals / steps of this project are the following:
 * Test that the model successfully drives around track one without leaving the road
 * Summarize the results with a written report
 
-###Files Submitted & Code Quality
-
-####1. Submission includes all required files and can be used to run the simulator in autonomous mode
-
-My project includes the following files:
+The project includes the following files:
 * model.py containing the script to create and train the model
 * drive.py for driving the car in autonomous mode. This file was modified to suit my network.
 * model.h5 containing a trained convolution neural network 
 * writeup_report.md summarizing the results
 
-####2. Submssion includes functional code
-Using the Udacity provided simulator and my drive.py file, the car can be driven autonomously around the track by executing. 
-```sh
-python drive.py model.h5
-```
-
-####3. Submssion code is usable and readable
-
-The model.py, model.h5 and the drive.py files submitted is sufficient to run the simulator. The drive.py file was modified to crop and resize frames as expected by the model. The drive.py was further modified to change the throttle value during sharp streering angles. This modification helps smooth the ride on slow computers.
 
 ###Model Architecture and Training Strategy
 
